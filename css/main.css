@@ -1,0 +1,54 @@
+body {
+  padding-top: 100px;
+  background-color: #F0EFF0;
+}
+/* Start of Header */
+
+/* Logo */
+
+.logolog
+{
+  max-height: 60px;
+}
+
+
+/* Start of Sections */
+/* ------------- */
+/* Carousel */
+.carousel-item
+{
+  max-height: 400px;
+}
+
+.carousel-item h1
+{
+  font-family: 'Archivo', sans-serif;
+}
+
+/* Carte Produit */
+.titreProduit
+{
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Archivo', sans-serif;
+  font-weight: bold;
+}
+
+.card-body
+{
+  background-color: #grey;
+}
+.card-title
+{
+  text-align: center;
+  font-family: 'Archivo', sans-serif;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.descriptionProduit
+{
+  text-align: center;
+  font-size: 2.5em;
+  font-family: 'Archivo', sans-serif;
+}

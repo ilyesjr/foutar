@@ -57,7 +57,8 @@ body {
 {
   text-align: center;
   text-decoration: underline;
-  font-family: 'Archivo', sans-serif;
+  font-family: 'Anton', sans-serif;
+  color: #383B43;
   font-weight: bold;
 }
 
@@ -69,7 +70,8 @@ body {
 .card-title
 {
   text-align: center;
-  font-family: 'Archivo', sans-serif;
+  font-family: 'Anton', sans-serif;
+  color: #383B43;
   text-decoration: underline;
   font-weight: bold;
 }
@@ -79,8 +81,51 @@ body {
   text-align: center;
   font-size: 1.2em;
   font-weight: bold;
-  font-family: 'Archivo', sans-serif;
+  font-family: 'Anton', sans-serif;
+  color: #383B43;
 }
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* ------------ END OF HOMEPAGE--------------*/
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+
+
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* ----------- *//* START OF ABOUT PAGE *//* */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+
+.imgTOPaboutimg
+{
+  max-width: 300px;
+  width: 95%;
+}
+
+.imgBOTaboutimg
+{
+  max-width: 250px;
+  width: 95%;
+}
+
+.texteAbout
+{
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 1.4em;
+  color: #383B43;
+}
+
+.contacteznous
+{
+  color: #383B43;
+}
+
 
 /* -------------------- */
 /* Media Queries */

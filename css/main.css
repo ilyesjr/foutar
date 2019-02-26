@@ -21,6 +21,12 @@ body {
   max-width: 768px;
   width: 95%;
 }
+/* ----------------- */
+/* Navigation */
+.nav-link
+{
+  font-family: 'Anton', cursive;
+}
 /* ------------------ */
 /* Carousel */
 .carousel-item
@@ -29,8 +35,8 @@ body {
 }
 .carousel-item h1
 {
-  font-family: 'Archivo', sans-serif;
-  font-size: 35px;
+  font-family: 'Anton', cursive;
+  font-size: 4em;
 }
 /* ------------------- */
 /* ---------------------- */
@@ -74,4 +80,16 @@ body {
   font-size: 1.2em;
   font-weight: bold;
   font-family: 'Archivo', sans-serif;
+}
+
+/* -------------------- */
+/* Media Queries */
+/* ------------------------- */
+
+@media (max-width: 425px)
+{
+  .carousel-item h1
+  {
+    font-size: 2em;
+  }
 }

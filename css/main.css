@@ -126,15 +126,79 @@ body {
   color: #383B43;
 }
 
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* ------------ END OF ABOUT PAGE--------------*/
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
 
+
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* ----------- *//* START OF CONTACT PAGE *//* */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+.iconTelephone
+{
+  height: 50px;
+}
+.imgTelephone
+{
+  height: 100%;
+}
+
+.titreTel h1, .titreMap h1
+{
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Anton', sans-serif;
+  font-size: 2.3em;
+  color: #383B43;
+}
+.numTel a
+{
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 1.8em;
+  color: #383B43;
+}
+
+.boxMaps
+{
+  border-left: 4px solid #383B43;
+}
+.Map
+{
+  margin : 1em;
+}
 /* -------------------- */
 /* Media Queries */
 /* ------------------------- */
 
 @media (max-width: 425px)
 {
-  .carousel-item h1
+  .carousel-item h1, .titreTel h1, .titreMap h1, .numTel a
   {
     font-size: 2em;
+  }
+
+  .Map
+  {
+    margin: auto;
+  }
+
+  .boxMaps
+  {
+    border-left: 0;
+  }
+
+  .titreMap
+  {
+    padding-top: 3em;
+    border-top: 4px solid #383B43;
   }
 }
